@@ -1,4 +1,4 @@
-FROM php:7.1.0-fpm-alpine
+FROM php:7.1.17-fpm-alpine
 
 RUN apk --no-cache add curl libmcrypt-dev zlib-dev git
 RUN apk update && apk add nodejs
